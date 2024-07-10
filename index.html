@@ -9,13 +9,15 @@
 
 <body>
     <nav>
-        <a href="./index.html">Weights by muscle group</a><br>
+        <a href="./index.html">Workouts by muscle group</a><br>
+        <a href="./equipment.html">Workouts by available equipment</a><br>
         <a href="./stretching.html">Flexibility and Mobility</a><br>
         <a href="./cardio.html">Cardio</a>
     </nav>
-    <p>Locker number: <input id="locker" type="text" /></p>
-    <p><button id="saveButton">Save Locker</button> Note: will not save if you leave the site</p>
-    <h1>Weights by muscle group</h1>
+    <p>Locker number: <input id="locker" type="text" />
+        <button id="saveButton">Save Locker</button> </p>
+    <p id="sideNote">Note: will not save if you leave the site</p>
+    <h1>Workouts by muscle group</h1>
     <nav>
         <ul>
             <li><a href="#upperbody">Upperbody</a></li>
@@ -25,11 +27,13 @@
     </nav>
     <div id="upperbody">
         <h2>Upperbody</h2>
-        <li><a href="#biceps">Biceps (Secondary muscle group)</a></li>
-        <li><a href="#triceps">Triceps (Secondary muscle group)</a></li>
-        <li><a href="#shoulders">Shoulders (Secondary muscle group)</a></li>
-        <li><a href="#forearms">Forearms (Minor muscle group)</a></li>
-        <li><a href="#traps">Traps (Minor muscle group)</a></li>
+        <ul>
+            <li><a href="#biceps">Biceps (Secondary muscle group)</a></li>
+            <li><a href="#triceps">Triceps (Secondary muscle group)</a></li>
+            <li><a href="#shoulders">Shoulders (Secondary muscle group)</a></li>
+            <li><a href="#forearms">Forearms (Minor muscle group)</a></li>
+            <li><a href="#traps">Traps (Minor muscle group)</a></li>
+        </ul>
         <div id="biceps">
             <h3>Biceps</h3>
         </div>
@@ -48,12 +52,14 @@
     </div>
     <div id="torso">
         <h2>Torso</h2>
-        <li><a href="#chest">Chest (Major muscle group)</a></li>
-        <li><a href="#lats">Lats (Major muscle group)</a></li>
-        <li><a href="#romboids">Romboids (Major muscle group)</a></li>
-        <li><a href="#rectus">Rectus abdominus (Secondary muscle group)</a></li>
-        <li><a href="#obliques">Obliques (Secondary muscle group)</a></li>
-        <li><a href="#transverse">Transverse abdominus (Secondary muscle group)</a></li>
+        <ul>
+            <li><a href="#chest">Chest (Major muscle group)</a></li>
+            <li><a href="#lats">Lats (Major muscle group)</a></li>
+            <li><a href="#romboids">Romboids (Major muscle group)</a></li>
+            <li><a href="#rectus">Rectus abdominus (Secondary muscle group)</a></li>
+            <li><a href="#obliques">Obliques (Secondary muscle group)</a></li>
+            <li><a href="#transverse">Transverse abdominus (Secondary muscle group)</a></li>
+        </ul>
         <div id="chest">
             <h3>Chest</h3>
         </div>
@@ -75,10 +81,12 @@
     </div>
     <div id="lowerbody">
         <h2>Lowerbody</h2>
-        <li><a href="#glutes">Glutes (Major muscle group)</a></li>
-        <li><a href="#hamstrings">Hamstrings (Major muscle group)</a></li>
-        <li><a href="#quads">Quads (Major muscle group)</a></li>
-        <li><a href="#calves">Calves (Minor muscle group)</a></li>
+        <ul>
+            <li><a href="#glutes">Glutes (Major muscle group)</a></li>
+            <li><a href="#hamstrings">Hamstrings (Major muscle group)</a></li>
+            <li><a href="#quads">Quads (Major muscle group)</a></li>
+            <li><a href="#calves">Calves (Minor muscle group)</a></li>
+        </ul>
         <div id="glutes">
             <h3>Glutes</h3>
         </div>
@@ -92,7 +100,6 @@
             <h3>Calves</h3>
         </div>
     </div>
-
 </body>
 
 </html>

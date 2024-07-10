@@ -22,4 +22,13 @@ a {
     width: 60px;
 }
 
+#sideNote {
+    font-size: 16px
+}
+
+#notes {
+    height: 120px;
+    width: 120px;
+}
+
 

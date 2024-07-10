@@ -5,7 +5,7 @@ function EventObject(data) {
 }
 
 function Model() {
-    this.locker = localStorage.getItem('locker') || '';
+    this.locker = localStorage.getItem('locker');
 
     this.updateModel = function(e) {
         // Update the locker number in the model
